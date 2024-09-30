@@ -25,11 +25,35 @@ This project implements an interactive **OSPF (Open Shortest Path First) algorit
 - **Start and End Nodes**: Specify the source and destination nodes for the shortest path calculation.
 
 ## Example
-Here’s an example of how the program might look once running:
 
-1. Input a graph with 5 nodes and several edges.
-2. Calculate the shortest path between two nodes using Dijkstra’s Algorithm.
-3. The visual graph will update to show the optimal path and the routing table.
+Here’s an example of user input and how the program works:
+
+### Input:
+
+- **Number of Nodes**: 7
+- **Node Names and Coordinates**:
+  - A: (100, 100)
+  - B: (200, 150)
+  - C: (300, 100)
+  - D: (200, 250)
+  - E: (400, 150)
+  - F: (500, 100)
+  - G: (600, 150)
+
+- **Number of Edges**: 9
+- **Edges and Distances**:
+  - A to B: 2
+  - A to C: 5
+  - B to C: 6
+  - B to D: 1
+  - B to E: 3
+  - C to F: 8
+  - D to E: 4
+  - E to G: 9
+  - F to G: 7
+
+- **Start node: A**:
+- **End node: G**:
 
 ## Output Example
 ![OSPF Visualization Output](ospf_visualization.png)
