@@ -1,7 +1,3 @@
-Here's a comprehensive `README.md` file for your project:
-
----
-
 # Interactive OSPF Algorithm Visualization and Shortest Path Simulation
 
 This project implements an interactive **OSPF (Open Shortest Path First) algorithm visualization tool** using Python and Pygame. It allows users to create custom graphs, representing network nodes and connections, and calculates the shortest path between nodes using **Dijkstra's Algorithm**. The tool visually displays the graph, highlights the optimal paths, and dynamically generates routing tables.
